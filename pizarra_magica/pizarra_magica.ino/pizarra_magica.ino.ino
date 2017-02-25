@@ -33,7 +33,7 @@ void loop() {
   delay(200);
 }
 
-bool electuraBoton() {
+bool lecturaBoton() {
 
   bool estadoBoton = digitalRead(botonReset);
   if (estadoBoton) {
@@ -45,7 +45,7 @@ bool electuraBoton() {
 
 int datoBoton() {
 
-  valorBoton = electuraBoton();
+  valorBoton = lecturaBoton();
   int valor = 0;
 
   if (valorBoton) {
