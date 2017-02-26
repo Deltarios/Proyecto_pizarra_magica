@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 /**
  ** 25/02/2017
  ** Creado Por: Ariel Arturo Ríos Sierra
-  ** Contacto: arturi.marking@gmail.com
+ ** Contacto: arturi.marking@gmail.com
  */
 
 private Serial puerto;
@@ -74,9 +74,9 @@ void lecturaPuertoSerial() {
       if (inPuerto.length() > 4) {
 
         String inDato1 = inPuerto.substring(0, indexSplit);
-        String inDato2 = null;
+
         try {
-          inDato2 = inPuerto.substring(indexSplit + 1, ultimoIndexSplit);
+          String inDato2 = inPuerto.substring(indexSplit + 1, ultimoIndexSplit);
           try {
             potDer = Integer.parseInt(inDato2);
           } 
@@ -102,11 +102,13 @@ void lecturaPuertoSerial() {
 void keyPressed() {
   fecha = new Date();
   formatoFecha = new SimpleDateFormat("dd-MMMM-yyyy-hh-mm-ss");
-
+  
   String fechaArchivo = formatoFecha.format(fecha);
-
   if (key == 's') {
-    save("imagen-"+ fechaArchivo +".jpg");
-    text("Imagen guardada", width / 2, height / 2 );
+    save("imagenes/imagen-"+ fechaArchivo +".jpg");
+    PFont fuente = loadFont("Arial-Black-20.vlw");
+    textSize(20);
+    textFont(fuente);
+    text("Imagen guardada", width / 2 - 100, height / 2 - 20);
   }
 }
