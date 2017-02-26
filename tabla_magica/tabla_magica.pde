@@ -100,11 +100,11 @@ void lecturaPuertoSerial() {
 }
 
 void keyPressed() {
-  fecha = new Date();
-  formatoFecha = new SimpleDateFormat("dd-MMMM-yyyy-hh-mm-ss");
-  
-  String fechaArchivo = formatoFecha.format(fecha);
   if (key == 's') {
+    fecha = new Date();
+    formatoFecha = new SimpleDateFormat("dd-MMMM-yyyy-hh-mm-ss");
+
+    String fechaArchivo = formatoFecha.format(fecha);
     save("imagenes/imagen-"+ fechaArchivo +".jpg");
     PFont fuente = loadFont("Arial-Black-20.vlw");
     textSize(20);
