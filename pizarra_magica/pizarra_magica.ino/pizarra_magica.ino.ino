@@ -90,7 +90,7 @@ int datoBoton() {
    para posteriormente asignarle un valor
    verdadero o falso dependiendo su estado
    esta funcion devuelve un bool
-   @return valorBoton
+   @return estadoBoton
 */
 bool lecturaBoton() {
   // Creamos e inicializamos con el valor digital del boton (0-1)
