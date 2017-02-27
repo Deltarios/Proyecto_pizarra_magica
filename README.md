@@ -1,5 +1,5 @@
 # Proyecto "pizarra mágica"
-Creado por: Ariel Arturo Ríos Sierra
+>Creado por: Ariel Arturo Ríos Sierra
 
 Contacto: arturi.marking@gmail.com
 
