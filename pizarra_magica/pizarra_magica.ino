@@ -3,13 +3,14 @@
  ** Creado Por: Ariel Arturo Ríos Sierra
  ** Contacto: arturi.marking@gmail.com
 
- * **********Pizarra Mágica*************
-   Este codigo de Arduino contiene todo
-   para la lectura de dos potenciometros
-   y un boton, que se usa para el funcionamiento
-   de un codigo en Processing, este es para
-   el funcionamiento de todos los sensores,
-   y hardware del proyecto.
+ ************Pizarra Mágica*************
+ * Este codigo de Arduino contiene todo
+ * para la lectura de dos potenciometros
+ * y un boton, que se usa para el funcionamiento
+ * de un codigo en Processing, este es para
+ * el funcionamiento de todos los sensores,
+ * y hardware del proyecto.
+ ***************************************
 */
 
 // Variable del pin del potenciometro izquierdo
