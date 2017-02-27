@@ -3,7 +3,7 @@
 
 >Contacto: arturi.marking@gmail.com
 
-Proyecto de pizarra virtual con dos potenciometros y Arduino
+## Proyecto de pizarra virtual con dos potenciometros y Arduino
 
 Es un programa para comunicar el Processing con el Arduino, asi recibir los valores de los potenciometros y mover unos ejes virtuales y dibujar en pantalla unas lineas de varios colores, cada vez que se inicie el programa, se tendrá un color diferente. 
 Cuando se presione el botón se reiniciara el programa para hacer otros dibujos. 
