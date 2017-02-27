@@ -75,6 +75,10 @@ void setup() {
   y = 0;
 }
 
+/**
+ * Funcion encargada de dibujar todo lo que se muestra en pantalla de
+ * forma ciclica, aqui se dibuja la linea y los cambio de colores
+ */
 void draw() {
 
   // Leemos los datos que recibmos con el arduino
