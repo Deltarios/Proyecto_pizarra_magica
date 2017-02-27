@@ -2,14 +2,14 @@
  ** 25/02/2017
  ** Creado Por: Ariel Arturo Ríos Sierra
  ** Contacto: arturi.marking@gmail.com
- * 
+
  * **********Pizarra Mágica*************
- * Este codigo de Arduino contiene todo
- * para la lectura de dos potenciometros 
- * y un boton, que se usa para el funcionamiento
- * de un codigo en Processing, este es para
- * el funcionamiento de todos los sensores,
- * y hardware del proyecto.
+   Este codigo de Arduino contiene todo
+   para la lectura de dos potenciometros
+   y un boton, que se usa para el funcionamiento
+   de un codigo en Processing, este es para
+   el funcionamiento de todos los sensores,
+   y hardware del proyecto.
 */
 
 // Variable del pin del potenciometro izquierdo
@@ -95,12 +95,6 @@ int datoBoton() {
 bool lecturaBoton() {
   // Creamos e inicializamos con el valor digital del boton (0-1)
   bool estadoBoton = digitalRead(botonReset);
-  // Comprobamos el estado del boton
-  if (estadoBoton) {
-    // Si es 1 devolvemos verdadero
-    return valorBoton = true;
-  } else {
-    // Si es 0 devolvemos falso
-    return valorBoton = false;
-  }
+  // Si es 1 devolvemos verdadero, si es 0 devolvemos falso
+  return estadoBoton;
 }
