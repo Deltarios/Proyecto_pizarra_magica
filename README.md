@@ -1,3 +1,23 @@
 # Proyecto pizarra mágica
 
 Proyecto de pizarra virtual con dos potenciometros y Arduino
+Es un programa para comunicar el Processing con el Arduino, asi recibir los valores de los potenciometros y mover unos ejes virtuales y dibujar en pantalla unas lineas de varios colores, cada vez que se inicie el programa, se tendrá un color diferente. 
+Cuando se presione el botón se reiniciara el programa para hacer otros dibujos. 
+Se pueden guardar los avances presionando la tecla 's'
+
+Materiales:
+- Arduino
+- 2 potenciometros de 10kOhms
+- 1 pushButton
+- ProtoBoard
+- Cables
+- 1 resistencia de 10kOhm
+
+Programas:
+- Processing 
+- Arduino IDE
+
+Diseño electrónico:
+![alt tag](https://github.com/Deltarios/Proyecto_pizarra_magica/blob/master/CircuitoElectronicoPizarra.png)
+Lo puede encontrar en:
+https://circuits.io/circuits/4124746-proyecto-4-pizarra-magica
