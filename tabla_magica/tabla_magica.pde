@@ -4,14 +4,14 @@
  ** Creado Por: Ariel Arturo Ríos Sierra
  ** Contacto: arturi.marking@gmail.com
  *
- * ***********Codigo de pizarra magica*******************
+ *************Codigo de pizarra magica*******************
  * Programa para crear una pizarra magica con processing 
  * y Arduino, comunicandolos ambos.
  *
  * Aqui se encuentra toda la logica del programa de la 
  * pizarra la lectura de los datos recibidos del potencio-
  * metro, asi como igual, el posterior guardado de la imagen
- * 
+ ******************************************************** 
  */
 
 import processing.serial.*;
