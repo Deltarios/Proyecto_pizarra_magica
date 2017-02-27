@@ -26,9 +26,19 @@ Lenguajes:
 - Java
 
 Diseño electrónico:
-![alt tag](https://github.com/Deltarios/Proyecto_pizarra_magica/blob/master/CircuitoElectronicoPizarra.png)
+![alt tag](https://github.com/Deltarios/Proyecto_pizarra_magica/blob/master/raw/CircuitoElectronicoPizarra.png)
 
 Lo puede encontrar presionando [aquí](https://circuits.io/circuits/4124746-proyecto-4-pizarra-magica)
+
+## Vista previa:
+
+<table>
+<tr>
+<td><img src=https://github.com/Deltarios/Proyecto_pizarra_magica/blob/master/raw/Ejemplo1.jpg></td>
+<td><img src=https://github.com/Deltarios/Proyecto_pizarra_magica/blob/master/raw/Ejemplo2.jpg></td>
+<td><img src=https://github.com/Deltarios/Proyecto_pizarra_magica/blob/master/raw/Ejemplo3.jpg></td>
+</tr>
+</table>
 
 ## Licencia 
 El contenido de este repositorio esta bajo una licencia [Creative Commons Attribution NonCommercial License](https://creativecommons.org/licenses/by-nc/4.0/)
