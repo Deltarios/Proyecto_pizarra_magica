@@ -134,19 +134,26 @@ void lecturaPuertoSerial() {
 
       // Comprobamos que la cadena no sea menor a 5 caracteres si es menor podruce errores
       if (inPuerto.length() > 4) {
-        // Creamos y le asignamos el primer dato en un string, para posteriomente darselo a la variable del potIzq
-        String inDato1 = inPuerto.substring(0, indexSplit);
-        // Le asignamos a la variable el primer Split(parte) de la cadena recibida ya convertida a Integer(Entero)
-        potIzq = Integer.parseInt(inDato1);
 
         // Protegemos de un posible error de index fuera de string a la variable 
         try {
+          // Creamos y le asignamos el primer dato en un string, para posteriomente darselo a la variable del potIzq
+          String inDato1 = inPuerto.substring(0, indexSplit);
           // Creamos y le asignamos el segundo dato en un string, para posteriomente darselo a la variable del potIzq
           String inDato2 = inPuerto.substring(indexSplit + 1, ultimoIndexSplit);
+          // Creamos y le asignamos el tercer dato en un string, para posteriomente darselo a la variable del potIzq
+          String inDato3 = inPuerto.substring(ultimoIndexSplit + 1, ultimoIndex);
+
           // Protegemos de un error a la variable de tipo formato de numero excepcion 
           try { 
+            // Le asignamos a la variable el primer Split(parte) de la cadena recibida ya convertida a Integer(Entero)
+            potIzq = Integer.parseInt(inDato1);
+
             // Le asignamos a la variable el segundo Split(parte) de la cadena recibida ya convertida a Integer(Entero)
             potDer = Integer.parseInt(inDato2);
+
+            // Le asignamos a la variable el tercer Split(parte) de la cadena recibida ya convertida a Integer(Entero)
+            botonReset = Integer.parseInt(inDato3);
           }
           // Atrapamos la excepcion
           catch (NumberFormatException e) {
@@ -159,11 +166,6 @@ void lecturaPuertoSerial() {
           // Imprimimos en pantalla el error si ocurre
           println(e);
         }
-
-        // Creamos y le asignamos el tercer dato en un string, para posteriomente darselo a la variable del potIzq
-        String inDato3 = inPuerto.substring(ultimoIndexSplit + 1, ultimoIndex);
-        // Le asignamos a la variable el tercer Split(parte) de la cadena recibida ya convertida a Integer(Entero)
-        botonReset = Integer.parseInt(inDato3);
 
         // Escribimos en pantalla los valores reales de los potenciometros y el boton 
         println("Potenciometro izquierdo: " + potIzq +" Potenciometro derecho: " + potDer + " Boton: " + botonReset);
