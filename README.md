@@ -27,5 +27,7 @@ Lenguajes:
 Diseño electrónico:
 ![alt tag](https://github.com/Deltarios/Proyecto_pizarra_magica/blob/master/CircuitoElectronicoPizarra.png)
 
-Lo puede encontrar en:
-https://circuits.io/circuits/4124746-proyecto-4-pizarra-magica
+Lo puede encontrar presionando [aquí](https://circuits.io/circuits/4124746-proyecto-4-pizarra-magica)
+
+## Licencia 
+El contenido de este repositorio esta bajo una licencia [Creative Commons Attribution NonCommercial License](https://creativecommons.org/licenses/by-nc/4.0/)
