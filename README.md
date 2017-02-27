@@ -10,7 +10,7 @@ Cuando se presione el botón se reiniciara el programa para hacer otros dibujos.
 Se pueden guardar los avances presionando la tecla 's'
 
 Materiales:
-- Arduino
+- Arduino UNO
 - 2 potenciometros de 10kOhms
 - 1 pushButton
 - ProtoBoard
