@@ -1,4 +1,7 @@
-# Proyecto pizarra mágica
+# Proyecto "pizarra mágica"
+Creado por: Ariel Arturo Ríos Sierra
+
+Contacto: arturi.marking@gmail.com
 
 Proyecto de pizarra virtual con dos potenciometros y Arduino
 Es un programa para comunicar el Processing con el Arduino, asi recibir los valores de los potenciometros y mover unos ejes virtuales y dibujar en pantalla unas lineas de varios colores, cada vez que se inicie el programa, se tendrá un color diferente. 
@@ -19,5 +22,6 @@ Programas:
 
 Diseño electrónico:
 ![alt tag](https://github.com/Deltarios/Proyecto_pizarra_magica/blob/master/CircuitoElectronicoPizarra.png)
+
 Lo puede encontrar en:
 https://circuits.io/circuits/4124746-proyecto-4-pizarra-magica
